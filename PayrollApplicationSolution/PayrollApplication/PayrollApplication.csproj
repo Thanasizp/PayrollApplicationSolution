@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A9B4106A-D45D-4A2D-8252-28FD1B90E584}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PayrollApplication</RootNamespace>
+    <AssemblyName>PayrollApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutPayrollSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutPayrollSystem.Designer.cs">
+      <DependentUpon>AboutPayrollSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllEmployee.Designer.cs">
+      <DependentUpon>AllEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllPayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllPayments.Designer.cs">
+      <DependentUpon>AllPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CurrentMonthPayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CurrentMonthPayments.Designer.cs">
+      <DependentUpon>CurrentMonthPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayrollCalculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayrollCalculator.Designer.cs">
+      <DependentUpon>PayrollCalculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayrollMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayrollMDI.Designer.cs">
+      <DependentUpon>PayrollMDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PayrollSystemDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PayrollSystemDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PayrollSystemDBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PayrollSystemDBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PayrollSystemDBDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PayrollSystemDBDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PreviewForm.Designer.cs">
+      <DependentUpon>PreviewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegisterUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterUser.Designer.cs">
+      <DependentUpon>RegisterUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Users.cs" />
+    <EmbeddedResource Include="AboutPayrollSystem.resx">
+      <DependentUpon>AboutPayrollSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllEmployee.rdlc" />
+    <EmbeddedResource Include="AllEmployee.resx">
+      <DependentUpon>AllEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllPayments.rdlc" />
+    <EmbeddedResource Include="AllPayments.resx">
+      <DependentUpon>AllPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CurrentMonthPayments.rdlc" />
+    <EmbeddedResource Include="CurrentMonthPayments.resx">
+      <DependentUpon>CurrentMonthPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeForm.resx">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayrollCalculator.resx">
+      <DependentUpon>PayrollCalculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayrollMDI.resx">
+      <DependentUpon>PayrollMDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreviewForm.resx">
+      <DependentUpon>PreviewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RegisterUser.resx">
+      <DependentUpon>RegisterUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="PayrollSystemDBDataSet.xsc">
+      <DependentUpon>PayrollSystemDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PayrollSystemDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PayrollSystemDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PayrollSystemDBDataSet.xss">
+      <DependentUpon>PayrollSystemDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PayrollSystemDBDataSet1.xsc">
+      <DependentUpon>PayrollSystemDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="PayrollSystemDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PayrollSystemDBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PayrollSystemDBDataSet1.xss">
+      <DependentUpon>PayrollSystemDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="PayrollSystemDBDataSet2.xsc">
+      <DependentUpon>PayrollSystemDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="PayrollSystemDBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PayrollSystemDBDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PayrollSystemDBDataSet2.xss">
+      <DependentUpon>PayrollSystemDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddEmployee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpdateEmployee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RemoveEmployee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResetNewEmployee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Compute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ResetNewEmployee1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrintPreview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\BlueLogo.png" />
+    <None Include="Resources\DeleteFilled.png" />
+    <None Include="Resources\UserLogIn.png" />
+    <None Include="Resources\LogIn100.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

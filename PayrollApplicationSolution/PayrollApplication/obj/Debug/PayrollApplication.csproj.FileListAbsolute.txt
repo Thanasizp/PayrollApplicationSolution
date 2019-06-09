@@ -1,0 +1,45 @@
+C:\Projects\Udemy\Visual C# and ADO.NET Programming\Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\PayrollApplication.exe.config
+C:\Projects\Udemy\Visual C# and ADO.NET Programming\Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\PayrollApplication.exe
+C:\Projects\Udemy\Visual C# and ADO.NET Programming\Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\PayrollApplication.pdb
+C:\Projects\Udemy\Visual C# and ADO.NET Programming\Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.EmployeeForm.resources
+C:\Projects\Udemy\Visual C# and ADO.NET Programming\Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.PayrollCalculator.resources
+C:\Projects\Udemy\Visual C# and ADO.NET Programming\Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.PreviewForm.resources
+C:\Projects\Udemy\Visual C# and ADO.NET Programming\Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.Properties.Resources.resources
+C:\Projects\Udemy\Visual C# and ADO.NET Programming\Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.csproj.GenerateResource.cache
+C:\Projects\Udemy\Visual C# and ADO.NET Programming\Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.csproj.CoreCompileInputs.cache
+C:\Projects\Udemy\Visual C# and ADO.NET Programming\Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.exe
+C:\Projects\Udemy\Visual C# and ADO.NET Programming\Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.pdb
+C:\Projects\Udemy\Visual C# and ADO.NET Programming\Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.csprojAssemblyReference.cache
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\PayrollApplication.exe.config
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\PayrollApplication.exe
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\PayrollApplication.pdb
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.AboutPayrollSystem.resources
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.AllEmployee.resources
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.AllPayments.resources
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.CurrentMonthPayments.resources
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.EmployeeForm.resources
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.LogIn.resources
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.PayrollCalculator.resources
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.PayrollMDI.resources
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.PreviewForm.resources
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.Properties.Resources.resources
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.RegisterUser.resources
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.csproj.GenerateResource.cache
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.csproj.CoreCompileInputs.cache
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.csproj.CopyComplete
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.exe
+C:\01_My_Projects\PayrollApplicationSolution\PayrollApplication\obj\Debug\PayrollApplication.pdb
